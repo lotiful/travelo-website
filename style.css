@@ -5,6 +5,15 @@
 body {
     font-family: "Mulish", sans-serif;
 }
+.btn-primary{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding:15px 30px;
+    border-radius: 8px;
+background: #FF5400;
+border: none;
+}
 .container {
     max-width: 1440px;
     padding: 0 135px;
@@ -88,3 +97,19 @@ nav ul li {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
 }
+/* header section end */
+.popular-tours{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.Tour-description h1{
+    color: #131318;   
+    font-size: 40px;
+    font-weight: 800;    
+}
+.Tour-description p,li{
+   padding:18px 0;
+}
+
