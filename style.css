@@ -4,6 +4,10 @@
 }
 body {
     font-family: "Mulish", sans-serif;
+
+}
+.Travel{
+    color: #ff5400;
 }
 .btn-primary {
     color: #fff;
@@ -49,6 +53,10 @@ nav ul li {
     font-weight: 500;
     font-size: 1rem;
 }
+#icon{
+    display: none;
+}
+
 /* banner section */
 .banner-section {
      max-width: 1195px;
@@ -82,7 +90,7 @@ nav ul li {
 }
 .same-bar {
     padding: 10px;
-    width: 174px;
+    width: 140px;
     border-radius: 8px;
     border: none;
     color: rgba(19, 19, 24, 0.5);
@@ -381,16 +389,27 @@ hr{
     .why-choose-us,
     .img-part-3,
     .img-part-2,
-    .img-part-1,nav{
+    .img-part-1{
         flex-direction: column;
     }
     .logo{
         justify-content: center;
     }
+    .logo h1 {
+        color: #131318;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
     nav ul {
         display: flex;
-        justify-content: space-around;
-        gap:10px;
+        justify-content: center;
+        gap:1px;
+    }
+    nav ul li{
+        display: none;
+    }
+    nav{
+        display: flex;
     }
     .banner-main {
         margin-top: 20px;
@@ -398,8 +417,9 @@ hr{
     }
     .search-section {
         /* background: #000; */
-        margin: 10px 100px;
-        /* padding: 20px; */  
+        /* margin: 10px 80px; */
+        /* padding: 20px; */ 
+        margin: 0 auto; 
     }
     .same-bar {
         padding: 10px;
@@ -429,10 +449,73 @@ hr{
     .newsletter-form{
         width: 80%;
     }
+    .tour-img img{
+        max-width: 100%;
+    }
+    #icon{
+        display: contents;
+    }
   
 }
 
 /* responsive for tab */
 @media screen and (min-width: 600px) and (max-width: 960px) {
+    .popular-tours,
+    .newsletter,
+    .why-choose-us,
+    .img-part-3,
+    .img-part-2,
+    .img-part-1,nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        gap:10px;
+    }
+    .search-section {
+        /* background: #000; */
+        /* margin: 10px 100px; */
+        /* padding: 20px; */
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 50px; 
+
+    }
+    .same-bar {
+        padding: 10px;
+        width: 174px;
+        margin-bottom: 5px;
+    }
+    .banner-main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .img-row-1,.img-row-north,.img-row-ban,.img-row-sri,.img-row-kash,.img-row-bandor ,.newsletter-img{
+        width:100%;}
+ 
+    .img-part-1,.img-part-2,.img-part-3 img{
+       grid-template-columns: repeat(1fr);
+       width: 100%;
+    }
+    .newsletter-form {
+        width: 75%;
+    }
+    #icon{
+        display: none;
+    }
+    .tour-img img{
+        max-width: 100%;
+    }
+    .handpicked {
+        width: 80%;
+        height: 250px;
+    }
+
+
     
+   
 }
