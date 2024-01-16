@@ -5,14 +5,14 @@
 body {
     font-family: "Mulish", sans-serif;
 }
-.btn-primary{
+.btn-primary {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    padding:15px 30px;
+    padding: 15px 30px;
     border-radius: 8px;
-background: #FF5400;
-border: none;
+    background: #ff5400;
+    border: none;
 }
 .container {
     max-width: 1440px;
@@ -98,18 +98,245 @@ nav ul li {
     background: rgba(255, 255, 255, 0.3);
 }
 /* header section end */
-.popular-tours{
+.popular-tours {
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
 }
 
-.Tour-description h1{
-    color: #131318;   
+.Tour-description h1 {
+    color: #131318;
     font-size: 40px;
-    font-weight: 800;    
+    font-weight: 800;
 }
-.Tour-description p,li{
-   padding:18px 0;
+.Tour-description p,
+li {
+    padding: 18px 0;
+}
+/* why choose us */
+.why-choose-us-title {
+    margin-top: 120px;
+    text-align: center;
+}
+.why-choose-us-title h1 {
+    color: #131318;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.why-choose-us-title p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    padding: 40px 0;
+}
+.why-choose-us {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.handpicked {
+    width: 550px;
+    height: 250px;
+    border-radius: 16px;
+    padding: 18px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+}
+.handpicked h3 {
+    color: #131318;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding-top: 2rem;
+}
+.handpicked p {
+    color: #5a5a5d;
+    padding-top: 1rem;
+}
+#price {
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+}
+#map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+}
+/* newsletter section */
+.newsletter {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 120px;
+}
+.newsletter-form {
+    width: 35%;
+    border-radius: 16px;
+    border: 2px solid #ff5400;
+    padding: 45px;
+    padding-top: 70px;
+}
+.newsletter-form h3 {
+    padding: 10px 0;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.newsletter-form p {
+    padding: 15px 0px;
+    color: #5a5a5d;
+    font-size: 1rem;
+}
+.newsletter-form .contact input {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    color: #757575;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    padding: 18px 35px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    background: #f5efef;
+}
+.newsletter-form .contact .subcribe-btn {
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+}
+.newsletter-img {
+    width: 60%;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.newsletter-img img {
+    width: 100%;
+}
+.save-up {
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #ff5400;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.save-up p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.save-up h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+/* destination style start */
+.destination-info{
+    text-align: center;
+    padding: 50px 0;
+}
+.destination-info h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.img-part-1 {
+    display: flex;
+    gap: 30px;
+}
+.img-row-1 {
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+.img-row-1 p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    top: 45%;
+    left: 40%;
+}
+.img-row-1 img {
+    width: 100%;
+    height: 100%;
 }
 
+
+
+.img-part-2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.img-part-2 img{
+    width: 100%;
+    height: 100%;
+}
+.img-row-sri {
+    width: 35%;
+    height: 286px;
+    position: relative;
+}
+.img-part-2 p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    top: 45%;
+    left: 40%;
+}
+.img-row-north {
+    width: 40%;
+    height: 286px;
+    position: relative;
+}
+.img-row-kash {
+    width: 25%;
+    height: 286px;
+    position: relative;
+}
+
+
+.img-part-3 {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.img-part-3 img{
+    width: 100%;
+    height: 100%;
+}
+.img-row-ban {
+    width: 40%;
+    height: 286px;
+    position: relative;
+}
+.img-row-bandor {
+    width: 60%;
+    height: 286px;
+    position: relative;
+}
+.img-part-3 p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    top: 45%;
+    left: 40%;
+}
+/* destination style end */
